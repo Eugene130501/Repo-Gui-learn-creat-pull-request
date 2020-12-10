@@ -1,0 +1,6 @@
+from itertools import permutation
+from itertools import repeat 
+from itertools import combinations
+my_list = [2, 11, 3, 2, 45, 3, 11, 42, 45 ]
+new_list = [el for el in my_list if my_list.count(el)==1]
+print(new_list)
